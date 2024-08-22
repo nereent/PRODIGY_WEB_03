@@ -1,0 +1,163 @@
+
+*
+{
+    /* background-color: #e8d8c4; */
+	background-color: #273C41;
+    font-family:'Times New Roman', Times, serif;
+}
+#items { 
+	text-align: center; 
+	margin-bottom: -5px; 
+} 
+h1 
+{ 
+	 /* color: #a73645;   */
+	color: #B58863;
+	margin-bottom: -5px; 
+} 
+/* #items p 
+{
+    color: #a73645;
+    margin-bottom: -10px; 
+} */ 
+.ui
+{ 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+} 
+.row 
+{ 
+	display: flex; 
+} 
+.box { 
+	border: none; 
+	width: 80px; 
+	height: 80px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-size: 24px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+.box:active
+{ 
+	outline: none; 
+} 
+#b1{ 
+	border-bottom: 1px solid #B58863; 
+	border-right: 1px solid #B58863; 
+} 
+#b1:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 30px #B58863;
+}
+#b2 { 
+	border-bottom: 1px solid #B58863; 
+	border-right: 1px solid #B58863 ;
+	border-left: 1px solid #B58863; 
+} 
+#b2:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 30px #B58863;
+}
+
+#b3 { 
+	border-bottom: 1px solid #B58863; 
+	border-left: 1px solid #B58863; 
+} 
+#b3:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 30px #B58863;
+}
+
+#b4 { 
+	border-top: 1px solid #B58863; 
+	border-bottom: 1px solid #B58863; 
+	border-right: 1px solid #B58863; 
+} 
+#b4:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 30px #B58863;
+}
+	
+#b5 { 
+	border: 1px solid #B58863; 
+} 
+#b5:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 30px #B58863;
+}
+#b6 { 
+	border-top: 1px solid #B58863; 
+	border-bottom: 1px solid #B58863; 
+	border-left: 1px solid #B58863; 
+} 
+#b6:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 30px #B58863;
+}
+#b7 { 
+	border-top: 1px solid #B58863; 
+	border-right: 1px solid #B58863; 
+} 
+#b7:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 30px #B58863;
+}
+#b8 { 
+	border-top: 1px solid #B58863; 
+	border-right: 1px solid #B58863; 
+	border-left: 1px solid #B58863; 
+} 
+#b8:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 30px #B58863;
+}
+#b9 { 
+	border-top: 1px solid #B58863; 
+	border-left: 1px solid #B58863; 
+} 
+#b9:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 30px #B58863;
+}
+#butt 
+{ 
+	box-sizing: border-box; 
+	width: 95px; 
+	height: 40px; 
+	border: none;
+	border: 1px solid rgb(104, 42, 42); 
+	margin-left: auto; 
+	border-radius: 10px; 
+	background-color: whitesmoke; 
+	color:#273C41; 
+	font-size: 20px; 
+	cursor: pointer; 
+}
+#butt:hover 
+{
+	background-color: #B58863;
+    /* transform: translate(-0.4px, -20px); */
+	transition: 0.5s ease-in;
+	border-radius: 40%;
+    border: 5px #210521;
+}
+
+#print 
+{ 	
+	color: #B58863;
+	font-size: 30px; 
+} 
+
